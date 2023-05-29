@@ -2,7 +2,6 @@
 title: Trauerbegleitung
 banner: /img/uploads/sky.png
 ---
-
 Als Musiktherapeutin mit einem besonderen Fokus auf Trauerbegleitung ist es mein Ziel, trauernden Menschen dabei zu helfen, wieder einen gesunden und wohlsinnigen Alltag zu finden. Der Verlust eines geliebten Menschen ist eine der schwierigsten Erfahrungen, die das Leben uns abverlangen kann. In solchen Momenten, in denen die Welt scheinbar stillsteht und der Schmerz unerträglich erscheint, kann die Musiktherapie ein Weg sein, um Trost, Verständnis und Heilung zu finden.
 
 Als ich selbst einen schweren Verlust erlitten habe, wurde mir klar, wie wichtig es ist, einen Raum zu schaffen, in dem die Trauernden ihre Emotionen ausdrücken können. In meiner Arbeit als Musiktherapeutin begegne ich den Menschen auf Augenhöhe und schaffe einen sicheren und unterstützenden Rahmen, in dem sie ihre Gefühle mit Hilfe der Musik erkunden können.
