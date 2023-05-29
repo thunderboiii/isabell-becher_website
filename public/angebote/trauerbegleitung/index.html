@@ -7,6 +7,7 @@
     <title>Trauerbegleitung</title>
     <link rel="stylesheet" href="/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
     <header>
@@ -24,7 +25,7 @@
                 </li>
 
                 <li>
-                    <a href="/angebot">Angebot</a>
+                    <a href="/angebote/trauerbegleitung">Angebot</a>
                 </li>
 
                 <li>
@@ -133,5 +134,17 @@
 </footer>
 
 <script src="/scripts/reveal-animation.js"></script>
+
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+                });
+            }
+            });
+        }
+    </script>
 </body>
 </html>
