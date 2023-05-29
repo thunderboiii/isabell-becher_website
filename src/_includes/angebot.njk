@@ -1,0 +1,19 @@
+---
+layout: base.njk
+---
+<section class="angebot-banner">
+    <h1>{{ title }}</h1>
+    <img src="{{ banner }}" alt="">
+</section>
+
+<section class="angebot-page">
+    <section class="sidebar">
+        {%- for angebot in collections.angebot -%}
+            <a href="{{ angebot.url }}"><button> {{ angebot.data.title }}</button></a>
+        {%- endfor -%}
+    </section>
+    
+    <section class="content">
+        {{ content | safe }}
+    </section>
+</section>
