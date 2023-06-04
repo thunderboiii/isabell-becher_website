@@ -817,6 +817,10 @@ header nav ul .menus li a:hover::after {
     margin: 3rem 15rem 0 5rem;
 }
 
+.angebot-page .content p {
+    margin-top: 1rem;
+}
+
 
 
 
