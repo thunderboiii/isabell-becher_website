@@ -14,8 +14,6 @@ Trauer ist ein individueller Prozess, und jeder Mensch geht auf seine eigene Wei
 
 Während des therapeutischen Prozesses unterstütze ich die Trauernden dabei, ihre Gefühle zu benennen und zu akzeptieren. Gemeinsam entwickeln wir individuelle Wege, um mit der Trauer umzugehen und die Ressourcen zu entdecken, die ihnen helfen können, wieder einen gesunden Alltag zu finden. Dabei kann es auch hilfreich sein, den Fokus auf die positiven Erinnerungen und die Stärken des Verstorbenen zu legen, um so einen gesunden Abschiedsprozess zu ermöglichen.
 
-Die Musiktherapie kann den Trauernden helfen, wieder eine Verbindung zu sich selbst, zu anderen Menschen und zur
-
- Welt um sie herum aufzubauen. Durch den kreativen Ausdruck und die musikalische Gestaltung können sie einen neuen Sinn im Leben finden und schrittweise wieder zu einem wohlsinnigen Alltag zurückkehren.
+Die Musiktherapie kann den Trauernden helfen, wieder eine Verbindung zu sich selbst, zu anderen Menschen und zur Welt um sie herum aufzubauen. Durch den kreativen Ausdruck und die musikalische Gestaltung können sie einen neuen Sinn im Leben finden und schrittweise wieder zu einem wohlsinnigen Alltag zurückkehren.
 
 Wenn Sie gerade einen Verlust erlebt haben oder jemanden kennen, der Unterstützung in der Trauer benötigt, stehe ich Ihnen gerne zur Seite. Gemeinsam können wir den Weg der Trauer gehen und die heilende Kraft der Musik entdecken.
