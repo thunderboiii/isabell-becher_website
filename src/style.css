@@ -475,7 +475,7 @@ header nav ul .menus li a:hover::after {
 }
 
 .index-banner h1 {
-    font-size: 200px;
+    font-size: 12vw;
     color: var(--clr-dominant-400);
     line-height: 1;
     font-weight: 700;
@@ -522,6 +522,7 @@ header nav ul .menus li a:hover::after {
     background-repeat: no-repeat;
     background-position: right bottom;
     height: 400px;
+    margin: 5rem 0 0 23rem;
 }
 
 
@@ -775,7 +776,7 @@ header nav ul .menus li a:hover::after {
 }
 
 .angebot-banner h1 {
-    font-size: 200px;
+    font-size: 10vw;
     color: var(--clr-dominant-400);
     line-height: 1;
     font-weight: 700;
