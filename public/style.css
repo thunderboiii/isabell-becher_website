@@ -263,6 +263,10 @@ select {
 
 
 /* Actual CSS */
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --clr-dominant-400: #fff;
     --clr-dominant-500: #efefef;
@@ -447,6 +451,16 @@ header nav ul .menus li a:hover::after {
     bottom: 1;
     transform-origin: bottom center;
     text-decoration: underline;
+}
+
+header .contact-btn {
+    background-color: var(--clr-dominant-400);
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+header .contact-btn a {
+    color: var(--clr-dominant-900) !important;
 }
 
 
@@ -819,6 +833,7 @@ header nav ul .menus li a:hover::after {
 
 .angebot-page .content p {
     margin-top: 1rem;
+    line-height: 1.2;
 }
 
 
