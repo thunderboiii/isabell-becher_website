@@ -350,7 +350,7 @@ a {
 }
 
 .hidden.reveal-left {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
 }
 
 .show.reveal-left {
@@ -358,7 +358,7 @@ a {
 }
 
 .hidden.reveal-right {
-    transform: translateX(100%);
+    transform: translateX(50%);
 }
 
 .show.reveal-right {
@@ -560,6 +560,7 @@ header .contact-btn a {
     width: 500px;
     height: 600px;
     transform: translateY(-50px);
+    object-fit: cover;
 }
 
 .textbox {
@@ -584,17 +585,19 @@ header .contact-btn a {
 
 .index-section-3 .part1 img {
     transform: translateY(-50px);
+    object-position: bottom;
 }
 
 .index-section-3 .part3 img {
     transform: translateY(50px);
+    object-position: -5rem;
 }
 
 .index-section-3 .part1 img, 
 .index-section-3 .part3 img{
     width: 500px;
     height: 600px;
-    
+    object-fit: cover;
 }
 
 .index-section-3 .part2 {
@@ -604,6 +607,7 @@ header .contact-btn a {
 .index-section-3 .part2 img{
     width: 1300px;
     height: 500px;
+    object-fit: cover;
 }
 
 .video-description {
@@ -717,6 +721,7 @@ header .contact-btn a {
 .index-contact .contact-modal img {
     height: 650px;
     width: 620px;
+    object-fit: cover;
 }
 
 .index-contact .contact-modal form h4 {
