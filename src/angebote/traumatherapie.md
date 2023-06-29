@@ -1,6 +1,6 @@
 ---
 title: Traumatherapie
-banner: /img/uploads/sky.png
+banner: /img/uploads/img_0193.jpg
 ---
 <!--StartFragment-->
 
