@@ -22,13 +22,14 @@ collections:
         file: "sites/about.yml"
         fields:
           - {label: Titel, name: title, widget: string}
-          - {label: Einleitung Titel, name: intro-title, widget: string}
-          - {label: Einleitung Untertitel, name: intro-subtitle, widget: string}
-          - {label: Einleitung Text, name: intro-content, widget: markdown}
-          - {label: Werdegang Titel, name: cv-title, widget: string}
-          - {label: Werdegang Untertitel, name: cv-subtitle, widget: string}
-          - {label: Werdegang Text, name: cv-content, widget: markdown}
-          - {label: Werdegang Bild, name: cv-picture, widget: image}
-          - {label: Motivation Titel, name: motivation-title, widget: string}
-          - {label: Motivation Untertitel, name: motivation-subtitle, widget: string}
-          - {label: Motivation Text, name: motivation-content, widget: markdown}
+          - {label: Banner, name: banner, widget: image}
+          - {label: Einleitung Titel, name: introTitle, widget: string}
+          - {label: Einleitung Untertitel, name: introSubtitle, widget: string}
+          - {label: Einleitung Text, name: introContent, widget: markdown}
+          - {label: Werdegang Titel, name: cvTitle, widget: string}
+          - {label: Werdegang Untertitel, name: cvSubtitle, widget: string}
+          - {label: Werdegang Text, name: cvContent, widget: markdown}
+          - {label: Werdegang Bild, name: cvPicutre, widget: image}
+          - {label: Motivation Titel, name: motivationTitle, widget: string}
+          - {label: Motivation Untertitel, name: motivationSubtitle, widget: string}
+          - {label: Motivation Text, name: motivationContent, widget: markdown}

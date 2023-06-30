@@ -3,33 +3,34 @@ title: Über Mich
 layout: base.njk
 ---
 
+{% for about in pages%}
 <section class="angebot-banner">
-    <h1>Über Mich</h1>
-    <img src="/img/bella/edited/cups.png" alt="">
+    <h1> {{about.data.title }}</h1>
+    <img src="{{ about.data.banner }}" alt="">
 </section>
 
 <section class="about-introduction">
     <div class="textbox">
-        <h2>Über mich und meine Leidenschaft</h2>
-        <h4>Gemeinsam den Weg zur inneren Stärke finden</h4>
-        <p>Mein Name ist Isabell Becher und ich bin eine engagierte Musiktherapeutin und Begleiterin auf dem Weg zu persönlichem Wachstum und emotionaler Heilung. Erfahre mehr über meine Leidenschaft, meine Erfahrungen und wie ich Menschen dabei helfe, ihre innere Stärke zu entdecken und positive Veränderungen zu verwirklichen.</p>
+        <h2>{{ about.data.introTitle}}</h2>
+        <h4>{{ about.data.introSubtitle }}</h4>
+        <p>{{ about.data.introContent }}</p>
     </div>
 </section>
 
 <section class="about-weg">
-    <img src="/img/pages/about/vor_bild.jpg" alt="">
+    <img src="{{ about.data.cvPicture }}" alt="">
     <div class="textbox hidden reveal-right">
-        <h2 class="dark">Der Weg zur Musiktherapeutin</h2>
-        <h4 class="dark">Mein Werdegang kurz erklärt</h4>
-        <p class="dark">Ich habe 2015 meine Ausbildung abgeschlossen und habe mich Anfang 2020 selbständig gemacht.</p>
+        <h2 class="dark">{{ about.data.cvTitle }}</h2>
+        <h4 class="dark">{{ about.data.cvSubtitle }}</h4>
+        <p class="dark">{{ about.data.cvContent }}</p>
     </div>
 </section>
 
 <section class="about-motivation">
     <div class="textbox hidden reveal-left">
-        <h2>Wieso bin ich Musiktherapeutin?</h2>
-        <h4>Über meine Motivation</h4>
-        <p>Musik und Kreativtherapie bieten Dir einen einzigartigen Weg zur Heilung. Durch den Ausdruck Deiner innersten Gefühle und Gedanken durch Musik und Kreativität kannst Du eine tiefe Verbindung zu Dir selbst aufbauen und innere Balance finden. Denn hier werden [Gedanken sichtbar bla bla etc]</p>
+        <h2>{{ about.data.motivationTitle }}</h2>
+        <h4>{{ about.data.motivationSubtitle }}</h4>
+        <p>{{ about.data.motivationContent}}</p>
     </div>
     <img src="img/pages/index/music.jpg" alt="">
 </section>
