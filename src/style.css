@@ -772,6 +772,33 @@ header .contact-btn a {
     cursor: pointer;
 }
 
+.about-introduction {
+    height: 400px;
+    margin: 5rem 0 0 23rem;
+}
+
+.about-weg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+
+    height: auto;
+    
+    background: linear-gradient(to bottom, #212121cd, #212121 65%), url(img/background-images/dobby_6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 60px;
+}
+
+.about-weg img {
+    width: 600px;
+    height: 500px;
+    transform: translateY(-50px);
+    object-fit: cover;
+}
 
 
 

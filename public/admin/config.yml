@@ -14,3 +14,21 @@ collections:
       - {label: "Banner", name: "banner", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Über Mich"
+        name: "about"
+        file: "sites/about.yml"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Einleitung Titel, name: intro-title, widget: string}
+          - {label: Einleitung Untertitel, name: intro-subtitle, widget: string}
+          - {label: Einleitung Text, name: intro-content, widget: markdown}
+          - {label: Werdegang Titel, name: cv-title, widget: string}
+          - {label: Werdegang Untertitel, name: cv-subtitle, widget: string}
+          - {label: Werdegang Text, name: cv-content, widget: markdown}
+          - {label: Werdegang Bild, name: cv-picture, widget: image}
+          - {label: Motivation Titel, name: motivation-title, widget: string}
+          - {label: Motivation Untertitel, name: motivation-subtitle, widget: string}
+          - {label: Motivation Text, name: motivation-content, widget: markdown}
