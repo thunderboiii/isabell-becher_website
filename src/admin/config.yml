@@ -5,8 +5,8 @@ media_folder: "public/img/uploads"
 public_folder: "/img/uploads"
 collections:
   - name: "pages"
-  label: "Pages"
-  files:
+    label: "Pages"
+    files:
     - label: "Über Mich"
       name: "about"
       file: "sites/about.yml"
