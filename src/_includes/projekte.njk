@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+
+<section class="angebot-banner">
+    <h1>{{ title }}</h1>
+    <img src="{{ banner }}" alt="">
+</section>
+
+<section class="project-page">
+    <section class="project-navigation">
+        {% for projekt in collections.projects%}
+            <a href="{{ projekt.url}}">
+                <div class="project">
+                    <p>{{ projekt.data.title }}</p>
+                    <img src="{{ projekt.data.banner}}" alt="">
+                </div>
+            </a>
+        {% endfor %}
+    </section>
+
+    <section class="project-content">
+        {{ content | safe }}
+    </section>
+</section>

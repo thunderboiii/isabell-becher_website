@@ -4,6 +4,25 @@ backend:
 media_folder: "public/img/uploads"
 public_folder: "/img/uploads"
 collections:
+  - name: "pages"
+  label: "Pages"
+  files:
+    - label: "Über Mich"
+      name: "about"
+      file: "sites/about.yml"
+      fields:
+        - {label: Titel, name: title, widget: string}
+        - {label: Banner, name: banner, widget: image}
+        - {label: Einleitung Titel, name: introTitle, widget: string}
+        - {label: Einleitung Untertitel, name: introSubtitle, widget: string}
+        - {label: Einleitung Text, name: introContent, widget: markdown}
+        - {label: Werdegang Titel, name: cvTitle, widget: string}
+        - {label: Werdegang Untertitel, name: cvSubtitle, widget: string}
+        - {label: Werdegang Text, name: cvContent, widget: markdown}
+        - {label: Werdegang Bild, name: cvPicutre, widget: image}
+        - {label: Motivation Titel, name: motivationTitle, widget: string}
+        - {label: Motivation Untertitel, name: motivationSubtitle, widget: string}
+        - {label: Motivation Text, name: motivationContent, widget: markdown}
   - name: "angebot"
     label: "Angebot"
     folder: "src/angebote"
@@ -14,22 +33,12 @@ collections:
       - {label: "Banner", name: "banner", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Über Mich"
-        name: "about"
-        file: "sites/about.yml"
-        fields:
-          - {label: Titel, name: title, widget: string}
-          - {label: Banner, name: banner, widget: image}
-          - {label: Einleitung Titel, name: introTitle, widget: string}
-          - {label: Einleitung Untertitel, name: introSubtitle, widget: string}
-          - {label: Einleitung Text, name: introContent, widget: markdown}
-          - {label: Werdegang Titel, name: cvTitle, widget: string}
-          - {label: Werdegang Untertitel, name: cvSubtitle, widget: string}
-          - {label: Werdegang Text, name: cvContent, widget: markdown}
-          - {label: Werdegang Bild, name: cvPicutre, widget: image}
-          - {label: Motivation Titel, name: motivationTitle, widget: string}
-          - {label: Motivation Untertitel, name: motivationSubtitle, widget: string}
-          - {label: Motivation Text, name: motivationContent, widget: markdown}
+  - name: "projects"
+    label: "Projekte"
+    folder: "src/projekte"
+    create: true
+    slug: "{{ slug }}"
+    fields:
+      - {label: Titel, name: title, widget: string}
+      - {label: Banner, name: banner, widget: image}
+      - {label: Body, name: body, widget: markdown}
