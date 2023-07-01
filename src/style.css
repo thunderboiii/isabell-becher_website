@@ -1111,6 +1111,28 @@ header .toggle-button {
     line-height: 1.2;
 }
 
+@media (max-width: 35em) {
+    .angebot-page {
+        flex-direction: column;
+    }
+
+    .angebot-page .sidebar  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin: 3rem 2rem;
+        border-right: none;
+        border-bottom: solid var(--clr-dominant-700) 1px;
+        padding-right: 0;
+        padding-bottom: 2rem;
+    }
+
+    .angebot-page .content {
+        margin: 3rem 2rem 0;
+    }
+}
+
 
 
 
