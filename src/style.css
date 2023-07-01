@@ -463,6 +463,72 @@ header .contact-btn a {
     color: var(--clr-dominant-900) !important;
 }
 
+header .toggle-button {
+    display: none;
+}
+
+@media (max-width: 35em) {
+    header .toggle-button {
+        display: block;
+        font-size: 35px;
+        color: var(--clr-dominant-400);
+        position: absolute;
+        right: 2rem;
+    }
+
+    header .menus {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        background-color: var(--clr-dominant-400);
+        border: var(--clr-dominant-700) solid 1px;
+        padding-block: 2rem;
+        width: 85vw;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-10%);
+        transition: opacity 100ms ease-in-out, transform 100ms ease-in-out;
+    }
+
+    header .menus.active {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+
+    header .menus li {
+        text-align: center;
+    }
+
+    header .menus li a {
+        color: var(--clr-dominant-900) !important;
+    }
+
+    header .menus li a:hover {
+        text-decoration: underline;
+    }
+
+    header .contact-btn {
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav ul {
+        margin: 1em 2em;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    header nav ul .logo-container {
+        align-self: flex-start;
+    }
+
+    header nav ul .logo-container .logo-nav img {
+        width: 182px;
+    }
+}
 
 
 /* INDEX */
@@ -530,6 +596,20 @@ header .contact-btn a {
     z-index: 10;
 }
 
+@media (max-width: 35em) {
+    .index-banner .small-text {
+        display: none;
+    }
+
+    .index-banner .isabell-becher {
+        font-size: 21px;
+    }
+}
+
+.textbox {
+    width: 30em;
+}
+
 
 .index-section-1 {
     background: url(img/background-images/notes.png);
@@ -537,6 +617,17 @@ header .contact-btn a {
     background-position: right bottom;
     height: 400px;
     margin: 5rem 0 0 23rem;
+}
+
+@media (max-width: 35em) {
+    .index-section-1 {
+        margin: 5rem 0 5rem 2rem;
+        background-position: left bottom;
+    }
+
+    .textbox {
+        width: 20em;
+    }
 }
 
 
@@ -563,8 +654,21 @@ header .contact-btn a {
     object-fit: cover;
 }
 
-.textbox {
-    width: 30em;
+@media (max-width: 35em) {
+    .index-section-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+
+        padding-bottom: 6rem;
+    }
+
+    .index-section-2 img {
+        width: 365px;
+        height: 400px;
+    }
 }
 
 
@@ -619,6 +723,50 @@ header .contact-btn a {
 
 .video-description h2 {
     font-size: 25px;
+}
+
+@media (max-width: 35em) {
+    .index-section-3 .part1,
+    .index-section-3 .part3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 10em;
+    }
+
+    .index-section-3 .part1 img,
+    .index-section-3 .part3 img {
+        width: 365px;
+        height: 400px;
+    }
+
+    .index-section-3 .part2 {
+        padding-block: 10rem;
+    }
+    
+    .index-section-3 .part2 img{
+        width: 90vw;
+        height: 211px;
+        margin: 0;
+    }
+    
+    .video-description {
+        width: calc(90vw - 2rem);
+        background-color: #111111f1;
+        padding: 1rem;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    
+    .video-description h2 {
+        font-size: 25px;
+    }
+
+    .video-description p {
+        font-size: 18px;
+        margin-top: 25px;
+    }
 }
 
 
@@ -699,9 +847,53 @@ header .contact-btn a {
     width: 80%;
 }
 
-@media screen and (max-width: 2560px), screen and (max-height: 1600px)   {
+@media (max-width: 35em) {
     .index-angebot {
-        padding: 5rem;
+        padding: 5rem 2rem;
+    }
+
+    .index-angebot .timeline::after {
+        left: auto;
+        right: 0;
+    }
+
+    .index-angebot .timeline .container::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: -8px;
+        left: auto;
+        background-color: white;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .index-angebot .timeline .right::after {
+        right: -8px;
+    }
+    
+    .index-angebot .timeline .right {
+        left: 0;
+    }
+
+    .index-angebot .timeline  .content {
+        width: 95%;
+        padding: 0;
+    }
+
+    .index-angebot .timeline .container {
+        width: 100%;
+        padding: 5rem 0;
+    }
+
+    .index-angebot .timeline .container h2 {
+        font-size: 35px;
+    }
+
+    .index-angebot .timeline .container h4 {
+        font-size: 18px;
     }
 }
 
@@ -771,6 +963,50 @@ header .contact-btn a {
     color: var(--clr-accent-400);
     cursor: pointer;
 }
+
+@media (max-width: 35em) {
+    .index-contact {
+        padding: 12rem 2.5rem;
+    }
+    
+    .index-contact .contact-modal img {
+        width: 365px;
+        height: 400px;
+    }
+
+    .index-contact .contact-modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
+        
+        height: auto;
+        width: 80vw;
+        padding-bottom: 2rem;
+    }
+
+    .index-contact .contact-modal form h4,
+    .index-contact .contact-modal form h2 {
+        text-align: center;
+    }
+
+    .index-contact .contact-modal form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .index-contact .contact-modal form  textarea {
+        width: 85%;
+    }
+}
+
+
+
+
+
 
 .about-introduction {
     height: 400px;
@@ -1023,4 +1259,32 @@ footer .cc {
 footer .cc p {
     color: var(--clr-dominant-400);
     opacity: .6;
+}
+
+@media (max-width: 35em) {
+    footer .footer-content {
+        flex-direction: column;
+
+        padding: 50px 2em 50px;
+        gap: 8rem;
+    }
+    
+    footer .footer-content .links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer .footer-content .links .linkbox ul li {
+        text-align: center;
+    }
+
+    footer .cc {
+        background-color: #2b2b2b;
+        padding: 1.5rem 2em;
+    }
+    
+    footer .cc p {
+        color: var(--clr-dominant-400);
+        opacity: .6;
+    }
 }
