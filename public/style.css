@@ -287,7 +287,7 @@ html {
 }
 
 main {
-    overflow-x: hidden;
+    overflow-x: hidden  ;
 }
 
 h1 {
@@ -617,7 +617,7 @@ header .toggle-button {
 
 .index-section-1 {
     background: url(img/background-images/notes.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-position: right bottom;
     height: 400px;
     margin: 5rem 0 0 23rem;
@@ -626,7 +626,8 @@ header .toggle-button {
 @media (max-width: 35em) {
     .index-section-1 {
         margin: 5rem 0 5rem 2rem;
-        background-position: left bottom;
+        background-position: left bottom !important;
+        background: url(img/background-images/notes_transparent.png);
     }
 
     .textbox {
