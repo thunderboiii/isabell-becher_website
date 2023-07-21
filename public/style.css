@@ -286,6 +286,10 @@ html {
     --tran-05: all 0.5s ease;
 }
 
+main {
+    overflow-x: hidden;
+}
+
 h1 {
     font-size: 60px;
     color: var(--clr-dominant-400);
@@ -1036,7 +1040,71 @@ header .toggle-button {
     object-fit: cover;
 }
 
+.about-motivation {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15em;
+}
 
+.about-motivation img {
+    height: 400px;
+    width: 500px;
+    transform: translateY(-50px);
+    object-fit: cover;
+}
+
+@media (max-width: 35em) {
+    .about-introduction {
+        height: 400px;
+        margin: 5rem 2rem 7rem;
+    }
+    
+    .about-weg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    
+        height: auto;
+        
+        background: linear-gradient(to bottom, #212121cd, #212121 65%), url(img/background-images/dobby_6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 100px;
+    }
+    
+    .about-weg img {
+        width: 80%;
+        height: 300px;
+        transform: translateY(-50px);
+        object-fit: cover;
+    }
+    
+    .about-motivation {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .about-motivation img {
+        height: 400px;
+        width: 80%;
+        transform: translateY(-50px);
+        object-fit: cover;
+    }
+
+    .about-motivation .textbox {
+        width: 90%;
+    }
+}
 
 
 
