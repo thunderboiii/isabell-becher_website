@@ -97,7 +97,7 @@
         <img src="img/pages/index/music.jpg" alt="">
     </div>
 
-    <div class="part2">
+    <div class="part2" style="display: none;">
         <center><img src="/img/pages/index/video.png" alt=""></center>
         <div class="video-description hidden reveal-scale">
             <h2 class="dark">Was ist Musiktherapie?</h2>
@@ -131,7 +131,7 @@
 
             <div class="container left">
                 <div class="content">
-                    <a href="/angebote/kreativ-und-musiktherapie"><h2 class="dark">Kreativ- und Musiktherapie</h2></a>
+                    <a href="/angebote/"><h2 class="dark">Kreativ- und Musiktherapie</h2></a>
                     <h4 class="dark">Lasse Deine innere Welt durch Musik und Kunst sprechen</h4>
                     <p class="dark">In der Kreativ- und Musiktherapie wirst Du Deine kreative Seite entdecken und Deine innere Welt zum Ausdruck bringen. Lass uns gemeinsam durch Gestalten, Musik und kreative Aktivitäten Deinen inneren Kern finden und Dein inneres Potenzial entfalten.</p>
                 </div>
@@ -139,7 +139,7 @@
             
             <div class="container right">
                 <div class="content">
-                    <a href="/angebote/paartherapie"><h2 class="dark">Paartherapie</h2></a>
+                    <a href="/angebote/-1/"><h2 class="dark">Paartherapie</h2></a>
                     <h4 class="dark">Stärkt Eure Beziehung durch kreative Ausdrucksformen</h4>
     
                     <p class="dark">In der Paartherapie mit kreativem Schwerpunkt werden wir gemeinsam daran arbeiten, Eure Beziehung zu stärken und wieder miteinander zu verbinden. Durch kreative Aktivitäten und Ausdrucksformen können wir neue Wege finden, um Kommunikation, Verständnis und Intimität in Eurer Partnerschaft zu fördern.</p>
@@ -148,7 +148,7 @@
 
             <div class="container left">
                 <div class="content">
-                    <a href="/angebote/tiergestuetzt"><h2 class="dark">Tiergestützte Therapie</h2></a>
+                    <a><h2 class="dark">Tiergestützte Therapie</h2></a>
                     <h4 class="dark">Erlebe die beruhigende Präsenz eines treuen Begleiters</h4>
                     <p class="dark">In meiner tiergestützten Therapie begleitet Dich - wenn du magst - mein liebevoller Golden Retriever Rüde Dobby. Seine Präsenz und Zuneigung können Dir helfen, Stress abzubauen, emotionale Unterstützung zu erfahren und eine Verbindung zur Natur und dem Tierreich aufzubauen. Erlebe die wohltuende Kraft der tierischen Begleitung.</p>
                 </div>
@@ -156,7 +156,7 @@
 
             <div class="container right">
                 <div class="content">
-                    <a href="/angebote/traumatherapie"><h2 class="dark">Traumatherapie</h2></a>
+                    <a href="/angebote/traumatherapie/"><h2 class="dark">Traumatherapie</h2></a>
                     <h4 class="dark">Befreie Dich von den Spuren der Vergangenheit</h4>
     
                     <p class="dark">In der Traumatherapie begleite ich Dich auf dem Weg der Heilung von traumatischen Erfahrungen. Gemeinsam werden wir achtsam und einfühlsam an den Wurzeln des Traumas arbeiten, um die belastenden Spuren der Vergangenheit zu lösen und Deinen Weg zu einem Leben in mehr Freiheit und Wohlsein zu ebnen.</p>
@@ -165,7 +165,7 @@
 
             <div class="container left">
                 <div class="content">
-                    <a href="/angebote/kinderwunsch"><h2 class="dark">Kinderwusnch Begleitung</h2></a>
+                    <a href="/angebote/-2/"><h2 class="dark">Kinderwusnch Begleitung</h2></a>
                     <h4 class="dark">Entdecke neue Wege der Hoffnung und Stärke</h4>
                     <p class="dark">Ich begleite Dich/Euch durch schwierige Zeiten. Ein unerfüllter Kinderwunsch kann für viele Paare eine enorme emotionale Belastung darstellen. In meiner Praxis biete ich Dir/Euch umfassende Begleitung durch Musiktherape und Trauerbegleitung um Dir/Euch in dieser schwierigen Phase zur Seite zu stehen.</p>
                 </div>
@@ -173,7 +173,7 @@
 
             <div class="container right">
                 <div class="content">
-                    <a href="/angebote/jugendliche"><h2 class="dark">Für Jugendliche</h2></a>
+                    <a href="/angebote/-3/"><h2 class="dark">Für Jugendliche</h2></a>
                     <h4 class="dark">Finde Ausdruck, Identität und Wachstum durch Kreativität</h4>
     
                     <p class="dark">In der Kreativ- und Musiktherapie für Jugendliche wirst Du Deine einzigartige Stimme entdecken. Wir werden gemeinsam kreative Projekte und musikalische Ausdrucksformen erforschen, um Dir zu helfen, Deine Identität zu stärken, Emotionen auszudrücken und persönliches Wachstum zu fördern. Lass uns zusammen Deine kreative Reise beginnen und Deine innere Welt erkunden.</p>
@@ -185,14 +185,14 @@
 <section class="index-contact" id="index-contact">
     <div class="contact-modal">
         <img src="img/pages/index/cups.png" alt="">
-        <form action="">
+        <form action="contactform.php" method="post">
             <h2 class="dark">Kontakt</h2>
             <h4 class="dark">Noch heute termin vereinbaren</h4>
-            <input type="text" name="vorname" id="" placeholder="Vorname">
-            <input type="text" name="nachname" id="" placeholder="Nachname"><br>
-            <input type="email" name="email" id="" placeholder="E-Mail Adresse"><br>
-            <textarea name="message" id="" rows="5" placeholder="Nachricht"></textarea><br>
-            <button type="submit">Abschicken</button>
+            <input type="text" name="vorname" placeholder="Vorname" required>
+            <input type="text" name="nachname" placeholder="Nachname" required><br>
+            <input type="email" name="email" placeholder="E-Mail Adresse" required><br>
+            <textarea name="msg" rows="5" placeholder="Nachricht" required></textarea><br>
+            <button type="submit" name="submit">Abschicken</button>
         </form>
     </div>
 </section>
