@@ -548,7 +548,7 @@ header .toggle-button {
     overflow: hidden;
 }
 
-.index-banner img {
+.index-banner img:not(.google) {
     position: absolute;
     top: 0;
     left: 0;
@@ -556,6 +556,11 @@ header .toggle-button {
     height: 100%;
     object-fit: cover;
     pointer-events: none;
+}
+
+.index-banner .google {
+    height: 60px;
+    float: right;
 }
 
 .index-banner h1 {
@@ -603,6 +608,14 @@ header .toggle-button {
 @media (max-width: 35em) {
     .index-banner .small-text {
         display: none;
+    }
+
+    .index-banner {
+        padding-bottom: 100px;
+    }
+
+    .index-banner .google {
+        height: 40px;
     }
 
     .index-banner .isabell-becher {
@@ -899,6 +912,61 @@ header .toggle-button {
 
     .index-angebot .timeline .container h4 {
         font-size: 18px;
+    }
+}
+
+.index-contact .testimonials {
+    padding-bottom: 12rem;
+}
+
+.index-contact .testimonials .wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.index-contact .testimonials .wrapper .testimonial {
+    background-color: var(--clr-dominant-500);
+    padding: 3rem 2rem;
+    width: 28%;
+}
+
+.index-contact .testimonials .wrapper .testimonial .user p {
+    font-weight: 500;
+    opacity: .8;
+}
+
+.index-contact .testimonials .wrapper .testimonial .user {
+    margin-bottom: 1.5rem;
+}
+
+.index-contact .testimonials .wrapper .testimonial .stars {
+    margin-bottom: .5rem;
+}
+
+.index-contact .testimonials .wrapper .testimonial .review {
+    bottom: 0;
+}
+
+.index-contact .testimonials .wrapper .testimonial .review p {
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.index-contact .testimonials .wrapper .testimonial i {
+    font-size: 21px;
+    color: var(--clr-accent-700);
+}
+
+@media (max-width: 35em) {
+    .index-contact .testimonials .wrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .index-contact .testimonials .wrapper .testimonial {
+        width: auto;
     }
 }
 
