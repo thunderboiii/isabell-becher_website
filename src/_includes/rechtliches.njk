@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+
+<section class="angebot-page">
+    <section class="sidebar">
+        {%- for rechtlich in collections.rechtliches -%}
+            <a href="{{ rechtlich.url }}"><button> {{ rechtlich.data.title }}</button></a>
+        {%- endfor -%}
+    </section>
+    
+    <section class="content">
+        {{ content | safe }}
+    </section> 
+</section>

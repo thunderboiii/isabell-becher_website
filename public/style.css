@@ -641,6 +641,7 @@ header .toggle-button {
         margin: 5rem 0 5rem 2rem;
         background-position: left bottom !important;
         background: url(img/background-images/notes_transparent.png);
+        padding-bottom: 5rem;
     }
 
     .textbox {
@@ -744,6 +745,13 @@ header .toggle-button {
 }
 
 @media (max-width: 35em) {
+    .index-section-3 {
+        background-image: url(img/background-images/wheat-top_transparent.png), url(img/background-images/wheat-bottom_transparent.png);
+        background-size: 35em;
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+    
     .index-section-3 .part1,
     .index-section-3 .part3 {
         display: flex;

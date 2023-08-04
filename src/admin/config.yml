@@ -43,3 +43,12 @@ collections:
       - {label: Banner, name: banner, widget: image}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: Body, name: body, widget: markdown}
+  - name: "rechtliches"
+    label: "Angebot"
+    folder: "src/rechtliches"
+    create: true
+    slug: "{{ slug }}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
+      - {label: "Body", name: "body", widget: "markdown"}
