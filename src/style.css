@@ -1258,7 +1258,7 @@ header .toggle-button {
 
 @media (max-width: 35em) {
     .angebot-page {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .angebot-page .sidebar  {
@@ -1268,9 +1268,9 @@ header .toggle-button {
         gap: 1rem;
         margin: 3rem 2rem;
         border-right: none;
-        border-bottom: solid var(--clr-dominant-700) 1px;
+        border-top: solid var(--clr-dominant-700) 1px;
         padding-right: 0;
-        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
     .angebot-page .content {
