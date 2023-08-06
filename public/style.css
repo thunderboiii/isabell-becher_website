@@ -929,10 +929,6 @@ header .toggle-button {
     }
 }
 
-.index-contact .testimonials {
-    padding-bottom: 12rem;
-}
-
 .index-contact .testimonials .wrapper {
     display: flex;
     align-items: stretch;
@@ -1001,6 +997,7 @@ header .toggle-button {
     width: auto;
     height: 555px;
     background-color: var(--clr-dominant-900);
+    margin-top: 12rem;
 }
 
 .index-contact .contact-modal img {
