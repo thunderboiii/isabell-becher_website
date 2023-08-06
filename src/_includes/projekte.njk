@@ -9,10 +9,10 @@ layout: base.njk
 
 <section class="project-page">
     <section class="project-navigation">
-        {% for projekt in collections.projects %}
+        {% for projekt in collections.projekt %}
             <a href="{{ projekt.url}}">
                 <div class="project">
-                    <p>{{ projekt.data.title }}</p>
+                    <center><p>{{ projekt.data.title }}</p></center>
                     <img src="{{ projekt.data.banner}}" alt="">
                 </div>
             </a>
