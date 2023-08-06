@@ -1139,7 +1139,7 @@ header .toggle-button {
 @media (max-width: 35em) {
     .about-introduction {
         height: 400px;
-        margin: 5rem 2rem 7rem;
+        margin: 5rem 2rem 12rem;
     }
     
     .about-weg {
@@ -1172,6 +1172,11 @@ header .toggle-button {
         align-items: center;
         justify-content: center;
         gap: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .about-page h2 {
+        font-size: 40px;
     }
     
     .about-motivation img {
