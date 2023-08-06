@@ -1,6 +1,6 @@
 ---
 title: Traumatherapie
-banner: /img/uploads/img_0193.jpg
+banner: /img/uploads/image_2023-08-06_125159609.png
 ---
 Traumatische Ereignisse können tiefe Spuren in unserem Leben hinterlassen und uns in vielfältiger Weise beeinflussen. In der Traumatherapie geht es darum, einen sicheren Raum zu schaffen, indem Du Deine Erfahrungen teilen und die damit verbundenen Gefühle erforschen kannst. Ich werde Dich behutsam durch den Prozess der Veränderung/Verwandlung führen, während Du Dich von den Belastungen der Vergangenheit befreist.
 
