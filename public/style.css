@@ -1347,6 +1347,13 @@ header .toggle-button {
     line-height: 1.2;
 }
 
+@media (max-width: 35em) {
+    .project-navigation {
+        flex-direction: column-reverse;
+    }
+}
+
+
 .rechtliches-page {
     margin: 100px 5rem;
 }
