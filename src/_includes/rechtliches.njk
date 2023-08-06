@@ -2,15 +2,9 @@
 layout: base.njk
 ---
 
-<section class="angebot-page">
-    <section class="sidebar">
-        {%- for rechtlich in collections.rechtliches -%}
-            <a href="{{ rechtlich.url }}"><button> {{ rechtlich.data.title }}</button></a>
-        {%- endfor -%}
-    </section>
-    
+<section class="rechtliches-page">
     <section class="content">
-        <center>{{ title }}</center>
+        <center><h2>{{ title }}</h2></center>
         
         {{ content | safe }}
     </section> 

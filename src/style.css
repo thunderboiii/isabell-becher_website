@@ -290,6 +290,10 @@ main {
     overflow-x: hidden  ;
 }
 
+hr {
+    border-top: 1px solid var(--clr-dominant-700);
+}
+
 h1 {
     font-size: 60px;
     color: var(--clr-dominant-400);
@@ -328,6 +332,8 @@ p {
     color: var(--clr-dominant-900);
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    margin-top: 0 !important;
+    line-height: 1.2;
 }
 
 p.dark {
@@ -1344,6 +1350,21 @@ header .toggle-button {
     line-height: 1.2;
 }
 
+.rechtliches-page {
+    margin: 100px 5rem;
+}
+
+body:has(.rechtliches-page) header li a {
+    color: var(--clr-dominant-900) !important;
+}
+
+body:has(.rechtliches-page) header .contact-btn {
+    background-color: var(--clr-dominant-900);
+}
+
+body:has(.rechtliches-page) header .contact-btn a {
+    color: var(--clr-dominant-400) !important;
+}
 
 
 
