@@ -111,6 +111,7 @@ collections:
                 - { name: 'jugendTitle', label: 'Titel', widget: string}
                 - { name: 'jugendSubtitle', label: 'Untertitel', widget: string}
                 - { name: 'jugendText', label: 'Text', widget: markdown}
+        - {label: "Tags", name: "tags", widget: "list", default: ["home"]}
   - name: "angebot"
     label: "Angebot"
     folder: "src/angebote"
