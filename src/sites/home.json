@@ -1,0 +1,62 @@
+{
+  "welcome": {
+    "welcomeTitle": "Herzlich Willkommen!",
+    "welcomeSubtitle": "Musik und Kreativität als Schlüssel für Deine Veränderung",
+    "welcomeText": "Schön, dass du den Weg zu mir gefunden hast. Hier kannst Du den wandelnden Wert von Musik- und Kreativtherapie entdecken. Finde heraus wie du Dein eigenes Leben verändern und inneren Frieden finden kannst."
+  },
+  "who": {
+    "whoTitle": "Wer bin ich?",
+    "whoSubtitle": "Eine kleine Vorstellung meinerseits",
+    "whoText": "Hallo, mein Name ist Isabell. Als Musik- und Kreativtherapeutin ist es meine Leidenschaft, Menschen auf ihrem Weg zur Veränderung zu begleiten. Gemeinsam werden wir einen sicheren Raum schaffen, in dem Du Dich öffnen und Deine Gefühle durch Musik und Kreativität ausdrücken kannst. Lass uns gemeinsam Deine innere Stärke entfalten und den Weg zur Veränderung gehen.",
+    "whoImage": "/img/uploads/portrait.jpg"
+  },
+  "transform": {
+    "transformTitle": "Verwandle Dein Leben mit Musik und Kreativität",
+    "transformSubtitle": "Entdecke die Kraft, die in Dir steckt",
+    "transformText": "Musik und Kreativtherapie bieten Dir einen einzigartigen Weg zur Veränderung. Durch den Ausdruck Deiner innersten Gefühle und Gedanken durch Musik und Kreativität kannst Du eine tiefe Verbindung zu Dir selbst aufbauen und innere Balance finden. Denn dann machen Klänge bisher ungehörtes hörbar, Farben Unsichtbares sichtbar und Bewegungen Stärken wieder spürbar.",
+    "transformImage": "/img/uploads/music.jpg"
+  },
+  "vorerfahrung": {
+    "vorerfahrungTitle": "Vorerfahrungen im kreativen Bereich",
+    "vorerfahrungSubtitle": "Werden Vorerfahrungen benötigt?",
+    "vorerfahrungText": "Vorerfahrungen in Musik und Kreativität sind nicht nötig. Das Interesse und die Neugier Musik- und Kreativtherapie zu erleben reicht völlig aus.",
+    "vorerfahrungImage": "/img/uploads/img_0078.jpg"
+  },
+  "angebot": {
+    "trauerbegleitung": {
+      "trauerbegleitungTitle": "Trauerbegleitung",
+      "trauerbegleitungSubtitle": "Finde Trost und Empathie in Zeiten des Verlustes",
+      "trauerbegleitungText": "<!--StartFragment-->\n\nIn schwierigen Zeiten des Verlustes stehe ich Dir mit einfühlsamer Trauerbegleitung zur Seite. Gemeinsam werden wir Wege finden, um mit Deiner Trauer umzugehen. Schritt für Schritt wirst du das Tal der Tränen durchwandern.\n\n<!--EndFragment-->"
+    },
+    "musiktherapie": {
+      "musiktherapieTitle": "Kreativ- und Musiktherapie",
+      "musiktherapieSubtitle": "Lasse Deine innere Welt durch Musik und Kunst sprechen",
+      "musiktherapieText": "<!--StartFragment-->\n\nIn der Kreativ- und Musiktherapie wirst Du Deine kreative Seite entdecken und Deine innere Welt zum Ausdruck bringen. Lass uns gemeinsam durch Gestalten, Musik und kreative Aktivitäten Deinen inneren Kern finden und Dein inneres Potenzial entfalten.\n\n<!--EndFragment-->"
+    },
+    "paartherapie": {
+      "paartherapieTitle": "Paartherapie",
+      "paartherapieSubtitle": "Stärkt Eure Beziehung durch kreative Ausdrucksformen",
+      "paartherapieText": "<!--StartFragment-->\n\nIn der Paartherapie mit kreativem Schwerpunkt werden wir gemeinsam daran arbeiten, Eure Beziehung zu stärken und wieder miteinander zu verbinden. Durch kreative Aktivitäten und Ausdrucksformen können wir neue Wege finden, um Kommunikation, Verständnis und Intimität in Eurer Partnerschaft zu fördern.\n\n<!--EndFragment-->"
+    },
+    "tier": {
+      "tierTitle": "Tiergestützte Therapie",
+      "tierSubtitle": "Erlebe die beruhigende Präsenz eines treuen Begleiters",
+      "tierText": "<!--StartFragment-->\n\nIn meiner tiergestützten Therapie begleitet Dich - wenn du magst - mein liebevoller Golden Retriever Rüde Dobby. Seine Präsenz und Zuneigung können Dir helfen, Stress abzubauen, emotionale Unterstützung zu erfahren und eine Verbindung zur Natur und dem Tierreich aufzubauen. Erlebe die wohltuende Kraft der tierischen Begleitung.\n\n<!--EndFragment-->"
+    },
+    "trauma": {
+      "traumaTitle": "Traumatherapie",
+      "traumaSubtitle": "Befreie Dich von den Spuren der Vergangenheit",
+      "traumaText": "<!--StartFragment-->\n\nIn der Traumatherapie begleite ich Dich auf dem Weg der Heilung von traumatischen Erfahrungen. Gemeinsam werden wir achtsam und einfühlsam an den Wurzeln des Traumas arbeiten, um die belastenden Spuren der Vergangenheit zu lösen und Deinen Weg zu einem Leben in mehr Freiheit und Wohlsein zu ebnen.\n\n<!--EndFragment-->"
+    },
+    "kinderwunsch": {
+      "kinderwunschTitle": "Kinderwunsch Begleitung",
+      "kinderwunschSubtitle": "Entdecke neue Wege der Hoffnung und Stärke",
+      "kinderwunschText": "<!--StartFragment-->\n\nIch begleite Dich/Euch durch schwierige Zeiten. Ein unerfüllter Kinderwunsch kann für viele Paare eine enorme emotionale Belastung darstellen. In meiner Praxis biete ich Dir/Euch umfassende Begleitung durch Musiktherapie und Trauerbegleitung um Dir/Euch in dieser schwierigen Phase zur Seite zu stehen.\n\n<!--EndFragment-->"
+    },
+    "jugend": {
+      "jugendTitle": "Für Jugendliche",
+      "jugendSubtitle": "Finde Ausdruck, Identität und Wachstum durch Kreativität",
+      "jugendText": "<!--StartFragment-->\n\nIn der Kreativ- und Musiktherapie für Jugendliche wirst Du Deine einzigartige Stimme entdecken. Wir werden gemeinsam kreative Projekte und musikalische Ausdrucksformen erforschen, um Dir zu helfen, Deine Identität zu stärken, Emotionen auszudrücken und persönliches Wachstum zu fördern. Lass uns zusammen Deine kreative Reise beginnen und Deine innere Welt erkunden.\n\n<!--EndFragment-->"
+    }
+  }
+}
