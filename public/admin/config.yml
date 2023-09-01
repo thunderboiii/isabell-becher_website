@@ -9,7 +9,7 @@ collections:
     files:
     - label: "Über Mich"
       name: "about"
-      file: "sites/about.yml"
+      file: "src/sites/about.json"
       fields:
         - {label: Titel, name: title, widget: string}
         - {label: Banner, name: banner, widget: image}
@@ -23,6 +23,94 @@ collections:
         - {label: Motivation Titel, name: motivationTitle, widget: string}
         - {label: Motivation Untertitel, name: motivationSubtitle, widget: string}
         - {label: Motivation Text, name: motivationContent, widget: markdown}
+    - label: "Home"
+      name: "home"
+      file: "src/sites/home.json"
+      fields:
+        - label: 'Willkommen'
+          name: 'welcome'
+          widget: object
+          fields:
+            - { name: 'welcomeTitle', label: 'Titel', widget: string}
+            - { name: 'welcomeSubtitle', label: 'Untertitel', widget: string}
+            - { name: 'welcomeText', label: 'Text', widget: markdown}
+        - label: 'Wer bin ich?'
+          name: 'who'
+          widget: object
+          fields:
+            - { name: 'whoTitle', label: 'Titel', widget: string}
+            - { name: 'whoSubtitle', label: 'Untertitel', widget: string}
+            - { name: 'whoText', label: 'Text', widget: markdown}
+            - { name: 'whoImage', label: 'Bild', widget: image}
+        - label: 'Verwandle dein Leben'
+          name: 'transform'
+          widget: object
+          fields:
+            - { name: 'transformTitle', label: 'Titel', widget: string}
+            - { name: 'transformSubtitle', label: 'Untertitel', widget: string}
+            - { name: 'transformText', label: 'Text', widget: markdown}
+            - { name: 'transformImage', label: 'Bild', widget: image}
+        - label: 'Vorerfahrungen'
+          name: 'vorerfahrung'
+          widget: object
+          fields:
+            - { name: 'vorerfahrungTitle', label: 'Titel', widget: string}
+            - { name: 'vorerfahrungSubtitle', label: 'Untertitel', widget: string}
+            - { name: 'vorerfahrungText', label: 'Text', widget: markdown}
+            - { name: 'vorerfahrungImage', label: 'Bild', widget: image}
+        - label: 'Angebot'
+          name: 'angebot'
+          widget: object
+          fields:
+            - label: Trauerbegleitung
+              name: trauerbegleitung
+              widget: object
+              fields:
+                - { name: 'trauerbegleitungTitle', label: 'Titel', widget: string}
+                - { name: 'trauerbegleitungSubtitle', label: 'Untertitel', widget: string}
+                - { name: 'trauerbegleitungText', label: 'Text', widget: markdown}
+            - label: Kreativ- und Musiktherapie
+              name: musiktherapie
+              widget: object
+              fields:
+                - { name: 'musiktherapieTitle', label: 'Titel', widget: string}
+                - { name: 'musiktherapieSubtitle', label: 'Untertitel', widget: string}
+                - { name: 'musiktherapieText', label: 'Text', widget: markdown}
+            - label: Paartherapie
+              name: paartherapie
+              widget: object
+              fields:
+                - { name: 'paartherapieTitle', label: 'Titel', widget: string}
+                - { name: 'paartherapieSubtitle', label: 'Untertitel', widget: string}
+                - { name: 'paartherapieText', label: 'Text', widget: markdown}
+            - label: Tiergestützte Therapie
+              name: tier
+              widget: object
+              fields:
+                - { name: 'tierTitle', label: 'Titel', widget: string}
+                - { name: 'tierSubtitle', label: 'Untertitel', widget: string}
+                - { name: 'tierText', label: 'Text', widget: markdown}
+            - label: Traumatherapie
+              name: trauma
+              widget: object
+              fields:
+                - { name: 'traumaTitle', label: 'Titel', widget: string}
+                - { name: 'traumaSubtitle', label: 'Untertitel', widget: string}
+                - { name: 'traumaText', label: 'Text', widget: markdown}
+            - label: Kinderwunsch Begleitung
+              name: kinderwunsch
+              widget: object
+              fields:
+                - { name: 'kinderwunschTitle', label: 'Titel', widget: string}
+                - { name: 'kinderwunschSubtitle', label: 'Untertitel', widget: string}
+                - { name: 'kinderwunschText', label: 'Text', widget: markdown}
+            - label: Für Jugendliche
+              name: jugend
+              widget: object
+              fields:
+                - { name: 'jugendTitle', label: 'Titel', widget: string}
+                - { name: 'jugendSubtitle', label: 'Untertitel', widget: string}
+                - { name: 'jugendText', label: 'Text', widget: markdown}
   - name: "angebot"
     label: "Angebot"
     folder: "src/angebote"
