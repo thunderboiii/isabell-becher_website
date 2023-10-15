@@ -757,6 +757,10 @@ header .toggle-button {
         background-repeat: no-repeat;
         background-position: top left, bottom right;
     }
+
+    .index-section-3 .part1{
+        margin-bottom: 8rem;
+    }
     
     .index-section-3 .part1,
     .index-section-3 .part3 {
@@ -764,7 +768,7 @@ header .toggle-button {
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
-        gap: 10em;
+        gap: 2em;
     }
 
     .index-section-3 .part1 img,
