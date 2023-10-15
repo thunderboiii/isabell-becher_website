@@ -1379,6 +1379,20 @@ body:has(.rechtliches-page) header .contact-btn a {
     color: var(--clr-dominant-400) !important;
 }
 
+.rechtliches-page li {
+    font-size: 21px;
+    color: var(--clr-dominant-900);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 0 !important;
+    line-height: 1.2;
+    margin-left: 4em;
+}
+
+.rechtliches-page p:has(strong) {
+    padding-top: 2rem;
+}
+
 
 
 
