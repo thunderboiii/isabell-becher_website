@@ -12,13 +12,31 @@
                     <a href="/ueber_mich">Über Mich</a>
                 </li>
 
-                <li>
-                    <a href="/angebote/trauerbegleitung">Angebot</a>
-                </li>
+                <div class="dropdown right" data-dropdown>
+                    <button class="link" data-dropdown-button>Angebot</button>
 
-                <li>
-                    <a href="/projekte">Projekte</a>
-                </li>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-links">
+                            {%- for angebot in collections.angebot -%}
+                                    <a href="{{ angebot.url }}">{{ angebot.data.title }}</a>
+                                {# Display other fields as needed #}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown right" data-dropdown>
+                    <button class="link" data-dropdown-button>Projekte</button>
+
+                    <div class="dropdown-menu">
+                        <div class="dropdown-links">
+                            {% for projekt in collections.projekt %}
+                                    <a href="{{ projekt.url }}">{{ projekt.data.title }}</a>
+                                {# Display other fields as needed #}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
 
                 <li class="contact-btn">
                     <a href="/index.html#contact">Kontakt</a>

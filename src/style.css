@@ -477,6 +477,77 @@ header .toggle-button {
     display: none;
 }
 
+header nav ul .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-inline: 14px;
+}
+
+header nav ul .dropdown button {
+    font-size: 21px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--clr-dominant-400);
+    font-family: 'Raleway', sans-serif;
+}
+
+header nav ul .dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: var(--clr-dominant-400);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 10%);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 150ms opacity ease-in-out, transform 150ms ease-in-out, top 500ms ease-in-out;
+    pointer-events: none;
+    width: max-content;
+    -webkit-transition: 150ms opacity ease-in-out, transform 150ms ease-in-out, top 500ms ease-in-out;
+}
+
+header.ontop .desktop-nav ul .dropdown-menu {
+    top: calc(100% + 2rem);
+}
+
+header nav ul .information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 4rem;
+}
+
+header nav ul .dropdown-menu .dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 0;
+}
+
+header nav ul .information-grid .dropdown-heading {
+    color: var(--color-accent-700);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+header nav ul .dropdown.active > .link + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+header nav ul .dropdown-menu .dropdown-links a {
+    color: var(--clr-dominant-900);
+}
+
+header nav ul .dropdown.right .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
 @media (max-width: 35em) {
     header .toggle-button {
         display: block;
@@ -537,6 +608,19 @@ header .toggle-button {
 
     header nav ul .logo-container .logo-nav img {
         width: 182px;
+    }
+
+    header nav ul .dropdown {
+        text-align: center;
+    }
+
+    header nav ul .dropdown button {
+        color: var(--clr-dominant-900);
+        text-align: center;
+    }
+
+    header nav ul .dropdown.right .dropdown-menu {
+        z-index: 100;
     }
 }
 
@@ -926,6 +1010,7 @@ header .toggle-button {
 
     .index-angebot .timeline .container h2 {
         font-size: 35px;
+        word-wrap: break-word;
     }
 
     .index-angebot .timeline .container h4 {
@@ -1218,6 +1303,7 @@ header .toggle-button {
     height: 100%;
     object-fit: cover;
     pointer-events: none;
+    filter: brightness(60%);
 }
 
 .angebot-banner h1 {
@@ -1270,7 +1356,7 @@ header .toggle-button {
 
 @media (max-width: 35em) {
     .angebot-page {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .angebot-page .sidebar  {
@@ -1280,9 +1366,9 @@ header .toggle-button {
         gap: 1rem;
         margin: 3rem 2rem;
         border-right: none;
-        border-bottom: solid var(--clr-dominant-700) 1px;
+        border-top: solid var(--clr-dominant-700) 1px;
         padding-right: 0;
-        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
     .angebot-page .content {
@@ -1360,6 +1446,18 @@ header .toggle-button {
     .project-navigation {
         flex-direction: column-reverse;
     }
+
+    .project-page {
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+
+    .project-navigation {
+        border-bottom: none;
+        border-top: solid var(--clr-dominant-700) 1px;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
 
 
@@ -1391,6 +1489,12 @@ body:has(.rechtliches-page) header .contact-btn a {
 
 .rechtliches-page p:has(strong) {
     padding-top: 2rem;
+}
+
+@media (max-width: 35em) {
+    .rechtliches-page {
+        margin: 100px 2rem;
+    }
 }
 
 
