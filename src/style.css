@@ -653,6 +653,13 @@ header nav ul .dropdown.right .dropdown-menu {
     float: right;
 }
 
+.index-banner a:has(.google) {
+    display: block;
+    height: 60px;
+    float: right;
+    z-index: 100;
+}
+
 .index-banner h1 {
     font-size: 12vw;
     color: var(--clr-dominant-400);
@@ -705,6 +712,10 @@ header nav ul .dropdown.right .dropdown-menu {
     }
 
     .index-banner .google {
+        height: 40px;
+    }
+
+    .index-banner a:has(.google) {
         height: 40px;
     }
 
