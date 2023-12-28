@@ -313,6 +313,12 @@ h2.dark {
     color: var(--clr-dominant-400);
 }
 
+h3 {
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+}
+
 h4 {
     font-size: 21px;
     text-transform: uppercase;
@@ -1473,19 +1479,16 @@ header nav ul .dropdown.right .dropdown-menu {
 
 
 .rechtliches-page {
-    margin: 100px 5rem;
+    margin: 200px 5rem 100px;
 }
 
-body:has(.rechtliches-page) header li a {
-    color: var(--clr-dominant-900) !important;
-}
-
-body:has(.rechtliches-page) header .contact-btn {
+body:has(.rechtliches-page) header {
     background-color: var(--clr-dominant-900);
 }
 
-body:has(.rechtliches-page) header .contact-btn a {
-    color: var(--clr-dominant-400) !important;
+.rechtliches-page h2 {
+    word-wrap: break-word;
+    margin-top: 4rem;
 }
 
 .rechtliches-page li {
