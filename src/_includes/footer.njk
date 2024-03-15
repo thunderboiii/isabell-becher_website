@@ -27,9 +27,11 @@
                         <a href="/projekte">Projekte</a>
                     </li>
     
-                    <li class="sub">
-                        <a href="/projekte/">Trauercafé</a>
-                    </li>
+                    {% for projekt in collections.projekt %}
+                        <li class="sub">
+                            <a href="{{ projekt.url }}">{{ projekt.data.title }}</a>
+                        </li>
+                    {% endfor %}
                 </ul>
             </li>
     
