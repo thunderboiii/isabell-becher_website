@@ -6,7 +6,7 @@ Trauer hat verschiedene Facetten. Das kann der Tod eines geliebten Menschen sei
 
 Als Musiktherapeutin mit einem besonderen Fokus auf Trauerbegleitung ist es mein Ziel, dich als trauernden Menschen dabei zu unterstützen, wieder einen natürlichen und wohlsinnigen Alltag zu finden. Der Verlust eines geliebten Menschen ist eine der schwierigsten Erfahrungen, die das Leben uns abverlangen kann. In solchen Momenten, in denen die Welt scheinbar stillsteht und der Schmerz unerträglich erscheint, kann die Musiktherapie ein Weg sein, um Trost, Verständnis, Stärkung und Erneuerung zu finden.
 
-Als ich selbst einen schweren Verlust erlitten habe, wurde mir klar, wie wichtig es ist, einen Raum zu schaffen, in dem du als trauernder Mensch deine Gefühle ausdrücken kannst. In meiner Arbeit als Musiktherapeutin begegne ich dir auf Augenhöhe und schaffe einen sicheren und unterstützenden Rahmen, in dem du deine Gefühle mit Hilfe der Musik ausdrückst.
+Als ich selbst einen schweren Verlust erlitten habe, wurde mir klar, wie wichtig es ist, einen Raum zu schaffen, in dem d als trauernder Mensch deine Gefühle ausdrücken kannst. In meiner Arbeit als Musiktherapeutin begegne ich dir auf Augenhöhe und schaffe einen sicheren und unterstützenden Rahmen, in dem du deine Gefühle mit Hilfe der Musik ausdrückst.
 
 Die Musik hat eine einzigartige Kraft, uns auf einer tiefen emotionalen Ebene zu berühren. Während der Trauerbegleitung nutze ich verschiedene musikalische Elemente und Instrumente, um dir dabei zu helfen, deine Gefühle auszudrücken und zu verarbeiten. Die Musik wird zu einer Sprache, die über Worte hinausgeht und es ermöglicht, das Unsagbare auszudrücken. Durch das gemeinsame Musizieren oder das Hören ausgewählter Stücke können wir uns mit den Empfindungen verbinden, die oft schwer in Worte zu fassen sind. Dann machen Klänge Ungehörtes hörbar, Farben Unsichtbares sichtbar und Bewegungen Stärken wieder spürbar.
 
@@ -16,7 +16,7 @@ Trauer ist ein individueller Prozess, und jeder Mensch geht auf seine eigene Wei
 
 Während des therapeutischen Prozesses unterstütze ich dich dabei, deine Gefühle zu benennen und zu akzeptieren. Gemeinsam entwickeln wir individuelle Wege, um mit der Trauer umzugehen und die eigenen Ressourcen zu entdecken, die dir helfen können, wieder einen erträglichen Alltag zu finden. Dabei kann es auch hilfreich sein, den Fokus auf die positiven Erinnerungen und die Stärken des/der Verstorbenen zu legen, um so einen natürlichen Abschiedsprozess zu ermöglichen.
 
-Die Musiktherapie kann dir helfen, wieder eine Verbindung zu dir selbst, zu anderen Menschen und zur Welt um dich herum aufzubauen. Durch den kreativen Ausdruck und die musikalische Gestaltung kannst du einen neuen Sinn im Leben finden und schrittweise wieder zu einem wohlsinnigen Alltag zurückkehren.
+Die Musiktherapie kann dir helfen, wieder eine Verbindung zu dir selbst, zu anderen Menschen und zur Welt um dich herum aufzubauen. Durch den kreativen Ausdruck und die musikalische Gestaltung kannst du einen neuen Sinn im Leben finden und schrittweise wieder zu einem sinnvollen Alltag zurückkehren.
 
 Erst, wenn du das Tal der Tränen durchwanderst, wirst du den Berg erklimmen. Am Gipfel angekommen, wird dir die klare Sicht auf dein eigenes Leben gelingen.
 
